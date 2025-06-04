@@ -16,5 +16,5 @@ export const APP_ROUTES: Routes = [
     loadChildren: () =>
       import("./products/products.routes").then((m) => m.PRODUCTS_ROUTES)
   },
-  { path: "", redirectTo: "login", pathMatch: "full" },
+  { path: "", redirectTo: "home", pathMatch: "full" },
 ];
